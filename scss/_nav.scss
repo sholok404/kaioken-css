@@ -1,0 +1,21 @@
+.navbar {
+	ul {
+		margin: 0;
+    padding: 0;
+		list-style-type: none;
+    text-align: center;
+		li {
+			display: block;
+			padding: 10px;
+			a {
+				text-decoration: none;
+				text-align: center;
+				color: gray;
+				padding: 10px;
+			}
+      a:hover {
+        color: lightgray;
+      }
+		}
+	}
+}

@@ -1,0 +1,32 @@
+/* Box sizing */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+/* Media */
+
+.img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.video {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Helper tags */
+
+.hidden {
+	display: none !important;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.clearfix {
+	overflow: auto;
+}
