@@ -45,9 +45,7 @@ The navbar is very simple. It basically removes any styling from lists and links
 ## Footer
 
 The footer is basically a 100% width container with 7% padding. Not really much.
-You can also use the ```
-footer-fixed
-```
+You can also use the `footer-fixed`
 class to create a fixed footer.
 
 ## Media
