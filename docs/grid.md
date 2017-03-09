@@ -35,7 +35,7 @@ for a double........ My point is adding numbers to the
 ```
 col
 ```
-class makes the bigger (make sure to keep it under 12).
+class makes it bigger (make sure to keep it under 12).
 Then there are the other things like grid-center, grid-middle
 etc. These are self explanatory but just for the sake of documentation, here
 are those:
