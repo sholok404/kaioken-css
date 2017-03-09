@@ -25,10 +25,12 @@ As stated before, the grid consists of 12 columns. First you have to use the
 ```
 grid
 ```
-class to create a container for your grid. Then use the ```
+class to create a container for your grid. Then use the
+```
 col-1
 ```
-for a single column sized column or ```
+for a single column sized column or
+```
 col-2
 ```
 for a double........ My point is adding numbers to the
