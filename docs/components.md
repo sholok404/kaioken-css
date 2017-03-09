@@ -52,9 +52,9 @@ class to create a fixed footer.
 
 ## Media
 ### Classes:
-* Responsive images: ```img```
-* Responsive videos: ```video```
+* Responsive images: `img`
+* Responsive videos: `video`
 
 ## Helper tags
-The ```hidden``` class makes an element completely invisible. The ```invisible```
-class makes an element visually invisible. ```clearfix``` does what it says (if you don't know what that is, Google it up).
+The ```hidden``` class makes an element completely invisible. The `invisible`
+class makes an element visually invisible. `clearfix` does what it says (if you don't know what that is, Google it up).

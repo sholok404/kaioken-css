@@ -22,21 +22,9 @@ class for a 100% wide container.
 ## The grid
 
 As stated before, the grid consists of 12 columns. First you have to use the
-```
-grid
-```
-class to create a container for your grid. Then use the
-```
-col-1
-```
-for a single column sized column or
-```
-col-2
-```
-for a double........ My point is adding numbers to the
-```
-col
-```
+`grid` class to create a container for your grid. Then use the `col-1`
+for a single column sized column or `col-2` for a double........
+My point is adding numbers to the `col`
 class makes it bigger (make sure to keep it under 12).
 Then there are the other things like grid-center, grid-middle
 etc. These are self explanatory but just for the sake of documentation, here
