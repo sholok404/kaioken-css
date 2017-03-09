@@ -31,7 +31,8 @@ col-1
 for a single column sized column or ```
 col-2
 ```
-for a double........ My point is adding numbers to the ```
+for a double........ My point is adding numbers to the
+```
 col
 ```
 class makes the bigger (make sure to keep it under 12).
