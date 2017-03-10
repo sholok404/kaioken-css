@@ -7,8 +7,7 @@ UI components like navbar and footer and some other styles for making your webpa
 ## Getting Started
 
 To get started, download the kaioken.css file and link it to your webpage.
-To get started with the grid system, read [grid.md](docs/grid.md). For documentation
-on the other components, read [components.md](docs/components.md)
+For more details, see the [wiki](https://github.com/sholok404/kaioken-css/wiki).
 
 ## Contributing
 
