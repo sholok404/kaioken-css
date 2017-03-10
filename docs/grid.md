@@ -8,16 +8,8 @@ pretty bad.
 ## Containers
 
 Containers do what they sound like, they contain your content(pun intended XD).
-Use the
-```
-container
-```
-class for a 75% wide wide container and use the
-```
-container-full
-```
-class for a 100% wide container.
-
+Use the `container`
+class for a 75% wide wide container and use the `container-full` class for a 100% wide container.
 
 ## The grid
 
