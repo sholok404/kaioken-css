@@ -20,24 +20,14 @@
 .invisible {
   visibility: hidden; }
 
-.clearfix:after {
-  clear: both; }
-
-/* Containers */
-.container {
-  display: block;
-  margin: auto;
-  width: 75%; }
-
-.container-full {
-  display: block;
-  margin: auto;
-  width: 100%; }
+.clearfix {
+  overflow: auto; }
 
 /* Grid */
 .grid {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  flex-direction: column; }
 
 .grid-between {
   justify-content: space-between; }
@@ -53,12 +43,6 @@
 
 .grid-middle {
   align-items: center; }
-
-.grid-first {
-  order: -1; }
-
-.grid-last {
-  order: 1; }
 
 .grid-start {
   justify-content: flex-start;
@@ -118,43 +102,38 @@
 .col-12 {
   flex: 12; }
 
-/* Making it responsive */
-@media (max-width: 425px) {
-  .grid {
-    display: block; }
+.col-first {
+  order: -1; }
 
-  .col {
-    width: 100%;
-    margin: 0 0 10px 0; } }
-.navbar ul {
+.col-last {
+  order: 1; }
+
+@media screen and (min-width: 550px) {
+  .grid {
+    flex-direction: row; } }
+.nav {
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  text-align: center; }
-  .navbar ul li {
+  list-style-type: none; }
+  .nav .nav-item {
     display: block;
     padding: 10px; }
-    .navbar ul li a {
+    .nav .nav-item a {
       text-decoration: none;
       text-align: center;
       color: gray;
       padding: 10px; }
-    .navbar ul li a:hover {
+    .nav .nav-item a:hover {
       color: lightgray; }
 
-.navbar-fixed {
+.nav-fixed {
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%; }
 
 .footer {
-  width: 100%;
-  padding: 7%; }
-
-.footer-fixed {
-  position: fixed;
-  bottom: 0; }
+  width: 100%; }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**

@@ -1,23 +1,8 @@
-/* Containers */
-
-.container {
-  display: block;
-  margin: auto;
-  width: 75%;
-}
-
-
-.container-full {
-  display: block;
-  margin: auto;
-  width: 100%;
-}
-
-
 /* Grid */
 .grid {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .grid-between {
@@ -38,14 +23,6 @@
 
 .grid-middle {
 	align-items: center;
-}
-
-.grid-first {
-	order: -1;
-}
-
-.grid-last {
-	order: 1;
 }
 
 .grid-start {
@@ -76,7 +53,7 @@
 	flex: 1;
 }
 .col-2 {
-	flex: 2
+	flex: 2;
 }
 .col-3 {
 	flex: 3;
@@ -109,14 +86,16 @@
 	flex: 12;
 }
 
-/* Making it responsive */
+.col-first {
+	order: -1;
+}
 
-@media (max-width: 425px) {
-	.grid {
-		display: block;
-	}
-	.col {
-		width: 100%;
-		margin: 0 0 10px 0;
-	}
+.col-last {
+	order: 1;
+}
+
+@media screen and (min-width: 550px) {
+  .grid {
+    flex-direction: row;
+  }
 }
