@@ -1,8 +1,8 @@
 /* Grid */
 .grid {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .grid-between {
@@ -41,7 +41,7 @@
 }
 
 .grid-vertical {
-	flex-direction: column;
+	flex-direction: column !important;
 }
 
 

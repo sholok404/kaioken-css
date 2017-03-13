@@ -26,8 +26,8 @@
 /* Grid */
 .grid {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column; }
+  flex-direction: column;
+  flex-wrap: wrap; }
 
 .grid-between {
   justify-content: space-between; }
@@ -57,7 +57,7 @@
   text-align: end; }
 
 .grid-vertical {
-  flex-direction: column; }
+  flex-direction: column !important; }
 
 /* Columns */
 [class*="col-"] {
