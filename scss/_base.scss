@@ -30,3 +30,16 @@
 .clearfix {
 	overflow: auto;
 }
+
+.text-center {
+	text-align: center;
+}
+
+/* Accesibility */
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover, a:visited, a:focus, a:active {
+	text-decoration: underline;
+}

@@ -23,6 +23,17 @@
 .clearfix {
   overflow: auto; }
 
+.text-center {
+  text-align: center; }
+
+/* Accesibility */
+a {
+  color: blue;
+  text-decoration: none; }
+
+a:hover, a:visited, a:focus, a:active {
+  text-decoration: underline; }
+
 /* Grid */
 .grid {
   display: flex;
@@ -111,30 +122,6 @@
 @media screen and (min-width: 550px) {
   .grid {
     flex-direction: row; } }
-.nav {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-  .nav .nav-item {
-    display: block;
-    padding: 10px; }
-    .nav .nav-item a {
-      text-decoration: none;
-      text-align: center;
-      color: gray;
-      padding: 10px; }
-    .nav .nav-item a:hover {
-      color: lightgray; }
-
-.nav-fixed {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%; }
-
-.footer {
-  width: 100%; }
-
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
